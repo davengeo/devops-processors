@@ -1,5 +1,5 @@
 VENV_NAME?=venv
-LIB_SRC?=devopstoolsdaven
+LIB_SRC?=devopsprocessors
 SRC?=${LIB_SRC} test
 ARGS?=
 FILE_CONFIG := app.ini
