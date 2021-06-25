@@ -2,7 +2,7 @@ from dependency_injector import providers
 from dependency_injector.containers import DeclarativeContainer
 
 from devopsprocessors.history.history_processor import init_history_processor
-from fluentd.fluentd_processor import init_fluentd_processor
+from devopsprocessors.fluentd.fluentd_processor import init_fluentd_processor
 
 
 class SampleContainer(DeclarativeContainer):
