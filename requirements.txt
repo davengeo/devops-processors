@@ -1,3 +1,4 @@
+cloudevents
 dependency-injector>=4.0,<5.0
 fluent-logger
 prometheus-client
