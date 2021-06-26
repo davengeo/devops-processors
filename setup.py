@@ -6,7 +6,7 @@ setup(
     description="devops event processors library dist",
     url="https://github.com/davengeo/devops-processors",
     name="devops-processors",
-    version='0.0.1',
+    version='0.0.2',
     packages=[
         'devopsprocessors',
         'devopsprocessors.history',

@@ -1,9 +1,9 @@
 from typing import Callable, Any, Generator
 
 from cloudevents.http import CloudEvent
+from devopsprocessor.processor import Processor
 
 from devopsprocessors.fluentd.fluentd_logger import FluentdLogger
-from devopsprocessors.processor import Processor
 
 
 class FluentdProcessor(Processor):
