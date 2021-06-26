@@ -6,7 +6,7 @@ setup(
     description="devops event processors library dist",
     url="https://github.com/davengeo/devops-processors",
     name="devops-processors",
-    version='0.0.2',
+    version='0.0.3',
     packages=[
         'devopsprocessors',
         'devopsprocessors.history',
@@ -15,7 +15,7 @@ setup(
     install_requires=[
                     "cloudevents",
                     "dependency-injector>=4.0,<5.0",
-                    "fluent-logger"
+                    "fluent-logger",
                     "prometheus-client"
     ],
     package_data={
